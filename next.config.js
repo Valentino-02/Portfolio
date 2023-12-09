@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  images: {
+    domains: ["ichef.bbci.co.uk"],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

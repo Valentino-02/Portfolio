@@ -1,0 +1,43 @@
+{
+  "sidebar": {
+    "title": "Desarrollador Web",
+    "cv": "Descargar CV",
+    "darkMode": "Modo Oscuro",
+    "lightMode": "Modo Claro"
+  },
+  "navbar": {
+    "projects": "Proyectos",
+    "skills": "Conocimientos",
+    "about": "Info"
+  },
+  "about": {
+    "firstIntro": "As a versatil front end web developer, with added experience in backend and game development, and expertise in physics, math and statistics, I bring a holistic and analitical approach to building robust and intuitive user interfaces.",
+    "secondIntro": "As a versatil front end web developer, with added experience in backend and game development, and expertise in physics, math and statistics, I bring a holistic and analitical approach to building robust and intuitive user interfaces.",
+    "showMore": "ver más",
+    "showLess": "ocultar"
+  },
+  "skills": {
+    "language": {
+      "title": "Lenguajes",
+      "commonLanguages": "Perfecto Inglés y Español"
+    },
+    "knowledge": {
+      "title": "Conocimiento En",
+      "frontendDev": "Desarrollo de Frontend",
+      "backendDev": "Desarrollo de Backend",
+      "gameDev": "Desarrollo de Videojuegos",
+      "responsiveDesign": "Diseño Adaptativo",
+      "agileDev": "Desarrollo Ágil",
+      "testDrivenDev": "Desarrollo Guiado por Tests",
+      "designPrinciples": "Principios de Desarrollo",
+      "versionControl": "Control de Versiones",
+      "programmingParadigms": "Paradigmas de Programación"
+    },
+    "technologies": {
+      "title": "Tecnologías"
+    }
+  },
+  "projects": {
+    "more": "Más proyectos en mi  "
+  }
+}
