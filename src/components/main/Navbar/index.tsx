@@ -51,7 +51,7 @@ export default function Navbar({
       className="grid grid-cols-4 gap-4 px-5 py-3 my-3"
     >
       <div className="col-span-4 sm:col-span-2">
-        <span className="text-xl font-bold border-b-4 border-main-yellow md:text-2xl">
+        <span className="text-2xl font-bold border-b-4 border-main-yellow md:text-3xl ">
           {currentLabel}
         </span>
       </div>

@@ -10,6 +10,7 @@ export default async function Techs({ locale }: { locale: Locale }) {
     "Next JS",
     "Tailwind",
     "MaterialUI",
+    "Sass",
     "i18n",
     "Framer Motion",
     "Firebase",

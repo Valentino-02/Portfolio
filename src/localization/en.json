@@ -11,10 +11,28 @@
     "about": "About"
   },
   "about": {
-    "firstIntro": "As a versatil front end web developer, with added experience in backend and game development, and expertise in physics, math and statistics, I bring a holistic and analitical approach to building robust and intuitive user interfaces.",
-    "secondIntro": "As a versatil front end web developer, with added experience in backend and game development, and expertise in physics, math and statistics, I bring a holistic and analitical approach to building robust and intuitive user interfaces.",
+    "firstIntro": "As a versatile front end web developer, with added experience in backend and game development, native level english, and expertise in physics, math and statistics, I bring a holistic and analytical approach to building intuitive user interfaces, with maintainable and clean code behind them.",
+    "secondIntro": "Aside from development and physics, I am also a cook and musician! This range of activities has left me with a good number of soft skills, like good communication, prioritizing the team, flexibility and adaptability.",
     "showMore": "show more",
-    "showLess": "hide"
+    "showLess": "hide",
+    "infoCards": {
+      "1": {
+        "title": "Frontend",
+        "text": "My expertise relies on the frontend, and React is my library of choice to both merge HTML and JavaScript, and to handle the state and lifecycle of my apps. Tailwind is my tool of choice to make my CSS more manageable, but I am also quite savvy at Material UI and other solutions like Sass."
+      },
+      "2": {
+        "title": "Priorities",
+        "text": "As a developer, both the user experience and the quality of the code are of equal importance to me. A project with bad code practices, is just not maintainable, and of course, the end user should always come first when you want to deliver a good or service."
+      },
+      "3": {
+        "title": "Versatility",
+        "text": "My knowledge and experience in game and backend development, lets me get a more comprehensive view of web development and its technologies, while also letting me adapt to new frameworks or libraries quite easily."
+      },
+      "4": {
+        "title": "Physics",
+        "text": "My career in physics has left me with an analytical mind, clear articulation to express my ideas, a great learning speed, and a love for problem-solving. And of course, while not really relevant to software development, I am well versed in physics, mathematics and statistics."
+      }
+    }
   },
   "skills": {
     "language": {
@@ -38,6 +56,15 @@
     }
   },
   "projects": {
-    "more": "More projects on my "
+    "more": "More projects on my ",
+    "descriptions": {
+      "dispute": "Discord Clone with all of its main features, including live chat, servers and channels.",
+      "landing": "Landing page for a fictional artist and violin player, Deryaba Collin.",
+      "photons": "Open Source game made in 2 weeks for the GoGodot 2 game jam, in which it won the third place.",
+      "portfolio": "Personal portfolio, to showcase my skills as a web developer. Have you clicked on my face?",
+      "dashboard": "Dashboard to view and manage data from one of your projects. Right now, working with dummy data.",
+      "civ": "Tool made to manage data of a pen and pencil RPG game, in which you play as a civilization that develops through the ages.",
+      "crypto": "Portal where you can access many different types of data and news about the most used cryptocurrencies."
+    }
   }
 }

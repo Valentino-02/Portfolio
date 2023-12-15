@@ -11,10 +11,28 @@
     "about": "Info"
   },
   "about": {
-    "firstIntro": "As a versatil front end web developer, with added experience in backend and game development, and expertise in physics, math and statistics, I bring a holistic and analitical approach to building robust and intuitive user interfaces.",
-    "secondIntro": "As a versatil front end web developer, with added experience in backend and game development, and expertise in physics, math and statistics, I bring a holistic and analitical approach to building robust and intuitive user interfaces.",
+    "firstIntro": "Como desarrollador web frontend versátil, con experiencia adicional en desarrollo backend y de juegos, un nivel de inglés nativo, y conocimientos en física, matemáticas y estadísticas, aporto un enfoque holístico y analítico para construir interfaces de usuario intuitivas, con un código limpio y mantenible detrás de ellas.",
+    "secondIntro": "Además del desarrollo de software y la física, también soy cocinero y músico! Esta variedad de actividades me han dotado de varias habilidades blandas, como una buena comunicación, priorización del trabajo en equipo, flexibilidad y adaptabilidad.",
     "showMore": "ver más",
-    "showLess": "ocultar"
+    "showLess": "ocultar",
+    "infoCards": {
+      "1": {
+        "title": "Frontend",
+        "text": "Mi experiencia se centra en el frontend, y React es mi biblioteca preferida para fusionar HTML y JavaScript, así como para manejar el estado y el ciclo de vida de mis aplicaciones. Tailwind es mi herramienta preferida para hacer más manejable mi CSS, pero también tengo habilidades en Material UI y otras soluciones como Sass."
+      },
+      "2": {
+        "title": "Prioridades",
+        "text": "Como desarrollador, tanto la experiencia del usuario como la calidad del código son igualmente importantes para mí. Un proyecto con malas prácticas de código simplemente no es sostenible, y, por supuesto, el usuario final siempre debe ser la prioridad cuando se quiere entregar un bien o servicio. "
+      },
+      "3": {
+        "title": "Versatilidad",
+        "text": "Mi conocimiento y experiencia en desarrollo de juegos y backend me permiten tener una visión más integral del desarrollo web y sus tecnologías, lo que también me facilita adaptarme con facilidad a nuevos frameworks o bibliotecas."
+      },
+      "4": {
+        "title": "Física ",
+        "text": "Mi carrera en física me ha dejado con una mente analítica, capacidad para expresar mis ideas de manera clara, una gran rapidez para aprender y una pasión por resolver problemas. Y, por supuesto, aunque no esté directamente relacionado con el desarrollo de software, tengo un buen dominio de la física, las matemáticas y la estadística."
+      }
+    }
   },
   "skills": {
     "language": {
@@ -38,6 +56,15 @@
     }
   },
   "projects": {
-    "more": "Más proyectos en mi  "
+    "more": "Más proyectos en mi  ",
+    "descriptions": {
+      "dispute": "Clon de Discord con sus principales características, como chats, servidores y canales.",
+      "landing": "Landing page para un artista y violinista ficticio, Deryaba Collin.",
+      "photons": "Videojuego de código libre echo en 2 semanas para la GoGodot 2 game jam, en la cual ganó el tercer puesto.",
+      "portfolio": "Portafolio, para mostrar mis capacidades como desarrollador. clickeaste en mi cara?",
+      "dashboard": "Dashboard para ver y manejar data sobre algún proyecto. Ahora mismo funcionando con data dummy.",
+      "civ": "Herramienta echa para manejar data de un RPG de mesa, en el cual juegas como una civilización que se desarrolla atreves de las épocas.",
+      "crypto": "Portal donde puedes acceder a muchos tipos diferentes de noticias y data sobre las cripto-monedas más usadas."
+    }
   }
 }

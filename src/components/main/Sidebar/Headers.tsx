@@ -1,7 +1,7 @@
 import { Locale } from "../../../../i18n.config";
 import { getDictionary } from "@/localization";
 
-const CVlink = "";
+const CVlink = "https://cv-beta-sepia.vercel.app";
 
 export default async function Headers({ locale }: { locale: Locale }) {
   const { sidebar } = await getDictionary(locale);
@@ -18,7 +18,7 @@ export default async function Headers({ locale }: { locale: Locale }) {
         </p>
         <a
           href={CVlink}
-          download="CV"
+          target="_blank"
           className="flex justify-center px-2 py-1 mx-2 my-2 text-lg font-semibold transition duration-300 rounded-full cursor-pointer bg-slate-300 hover:text-main-yellow dark:bg-black-blue "
         >
           {sidebar.cv}
