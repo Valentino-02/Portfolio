@@ -1,7 +1,7 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-const linkedinLink = "";
-const githubLink = "";
+const linkedinLink = "https://linkedin.com/in/valentino-collazo-1b9551236";
+const githubLink = "https://github.com/Valentino-02";
 
 export default async function SocialLinks() {
   return (
