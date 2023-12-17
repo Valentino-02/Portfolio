@@ -16,6 +16,7 @@ export default async function Techs({ locale }: { locale: Locale }) {
     "Firebase",
     "Jest",
     "Alexa Skills",
+    "AWS Lambda",
     "Node",
     "Nest JS",
     "Axios",
