@@ -25,7 +25,7 @@ export default function ArrowControls({
   };
 
   return (
-    <div className="absolute left-0 right-0 justify-between hidden sm:flex">
+    <div className="absolute right-[-20px] justify-between hidden left-[-20px] sm:flex">
       <button onClick={onLeftClick}>
         <FaChevronLeft
           className={`w-8 h-8 hover:scale-125 duration-200 ${

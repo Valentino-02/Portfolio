@@ -36,6 +36,9 @@ export default function ProfileImg() {
         height={1000}
         onClick={() => changeImg()}
       />
+      <Image src={imgURLs[0]} width={0} height={0} alt="0" className="hidden" />
+      <Image src={imgURLs[1]} width={0} height={0} alt="1" className="hidden" />
+      <Image src={imgURLs[2]} width={0} height={0} alt="2" className="hidden" />
     </motion.div>
   );
 }

@@ -44,9 +44,9 @@ export default function InfoCard({
           animate={isClosing ? "closed" : "open"}
           variants={animationVariants}
           transition={{ duration: 0.2 }}
-          className="z-0 p-2 bg-gray-400 dark:bg-slate-950 rounded-b-xl"
+          className="z-0 p-4 bg-stone-400 dark:bg-slate-950 rounded-b-xl"
         >
-          <p>{text}</p>
+          <p className="text-justify">{text}</p>
         </motion.div>
       )}
     </div>

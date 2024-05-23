@@ -8,7 +8,7 @@ export default function Introduction({ dictionary }: { dictionary: any }) {
 
   return (
     <div className="flex flex-col">
-      <p className="mb-3 text-xl font-semibold leading-relaxed tracking-wide">
+      <p className="mb-3 text-xl font-semibold leading-relaxed tracking-wide text-justify">
         {dictionary.firstIntro}
       </p>
 
@@ -21,7 +21,7 @@ export default function Introduction({ dictionary }: { dictionary: any }) {
             transition={{
               duration: 0.3,
             }}
-            className="my-3 text-lg font-semibold text-gray-700 dark:text-gray-400"
+            className="my-3 text-lg font-semibold text-justify text-gray-700 dark:text-gray-400"
           >
             {dictionary.secondIntro}
           </motion.p>

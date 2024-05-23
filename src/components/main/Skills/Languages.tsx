@@ -16,7 +16,7 @@ export default async function Languages({ locale }: { locale: Locale }) {
     "GdScript",
   ];
   return (
-    <div className="flex flex-col items-center gap-4 text-center ">
+    <div className="flex flex-col items-center justify-between gap-4 text-center ">
       <h1 className="text-2xl font-bold text-main-pink">{dictionary.title}</h1>
       <h3 className="text-lg font-semibold">{dictionary.commonLanguages}</h3>
       <div className="grid grid-cols-2 gap-1 font-semibold">

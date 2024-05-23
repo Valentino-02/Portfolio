@@ -19,7 +19,7 @@ export default function TechItem({
   ) : (
     <motion.h3
       whileHover={{ y: -5 }}
-      className="p-1 border-4 rounded-sm dark:bg-gray-900 bg-zinc-400 border-black-blue"
+      className="p-1 border-4 rounded-sm dark:bg-stone-900 bg-zinc-400 border-black-blue"
     >
       {label}
     </motion.h3>

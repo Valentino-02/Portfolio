@@ -17,9 +17,9 @@ export default function ProjectCard({
   projectInfo: ProjectInfo;
 }) {
   return (
-    <div className="flex flex-row items-center w-11/12 bg-slate-300 dark:bg-slate-950">
-      <div className="flex flex-col justify-between gap-4 h-80">
-        <div className="flex justify-between">
+    <div className="flex flex-row items-start w-11/12 gap-4 bg-stone-300 dark:bg-slate-950">
+      <div className="flex flex-col justify-between gap-6 ">
+        <div className="flex flex-col justify-between gap-6 sm:flex-row">
           <h1 className="text-4xl font-bold text-main-pink ">
             {projectInfo.name}
           </h1>
@@ -41,7 +41,9 @@ export default function ProjectCard({
           </div>
         </div>
 
-        <p className="font-semibold text-md ">{projectInfo.description}</p>
+        <p className="font-semibold text-justify text-md ">
+          {projectInfo.description}
+        </p>
         <div className="flex flex-row flex-wrap gap-2 font-semibold">
           {projectInfo.techs.map((label) => (
             <h6
@@ -59,7 +61,7 @@ export default function ProjectCard({
         alt={projectInfo.name}
         width={1000}
         height={1000}
-        className="hidden mx-3 border-4 border-black rounded-sm w-80 h-80 md:flex"
+        className="hidden mx-3 border-4 border-black rounded-sm w-60 h-60 xl:w-80 xl:h-80 lg:flex"
       />
     </div>
   );

@@ -8,17 +8,11 @@ export default async function Skills({ locale }: { locale: Locale }) {
   return (
     <AnimatedDiv>
       <div className="flex flex-col gap-2 text-lg">
-        <div className="grid grid-cols-1 gap-2 lg:grid-cols-3">
-          <div className="p-2 ">
-            <Languages locale={locale} />
-          </div>
-          <div className="col-span-2 p-2 ">
-            <Knowledge locale={locale} />
-          </div>
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
+          <Languages locale={locale} />
+          <Knowledge locale={locale} />
         </div>
-        <div className="p-2 ">
-          <Techs locale={locale} />
-        </div>
+        <Techs locale={locale} />
       </div>
     </AnimatedDiv>
   );
