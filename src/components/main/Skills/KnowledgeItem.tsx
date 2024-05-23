@@ -14,7 +14,7 @@ export default function KnowledgeItem({
   return (
     <motion.h3
       whileHover={{ scale: 1.2, rotate: -20 }}
-      className="p-2 border-2 dark:bg-black-blue bg-slate-400 border-main-blue"
+      className="p-2 border-4 dark:bg-gray-900 bg-slate-400 border-black-blue"
     >
       {label}
     </motion.h3>

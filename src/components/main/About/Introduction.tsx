@@ -2,12 +2,15 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
 export default function Introduction({ dictionary }: { dictionary: any }) {
   const [showMore, setShowMore] = useState(false);
 
   return (
     <div className="flex flex-col">
-      <p className="mb-3 text-lg">{dictionary.firstIntro}</p>
+      <p className="mb-3 text-xl font-semibold leading-relaxed tracking-wide">
+        {dictionary.firstIntro}
+      </p>
 
       <AnimatePresence>
         {showMore && (
@@ -18,7 +21,7 @@ export default function Introduction({ dictionary }: { dictionary: any }) {
             transition={{
               duration: 0.3,
             }}
-            className="my-3 text-lg"
+            className="my-3 text-lg font-semibold text-gray-700 dark:text-gray-400"
           >
             {dictionary.secondIntro}
           </motion.p>

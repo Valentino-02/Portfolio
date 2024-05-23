@@ -31,7 +31,7 @@ export default async function Techs({ locale }: { locale: Locale }) {
   return (
     <div className="flex flex-col items-center gap-4 text-center ">
       <h1 className="text-2xl font-bold text-main-pink">{dictionary.title}</h1>
-      <div className="flex flex-row flex-wrap gap-2 text-lg font-bold text-black-blue">
+      <div className="flex flex-row flex-wrap gap-2 text-lg font-bold">
         {techsList.map((label) => (
           <TechItem
             label={label}

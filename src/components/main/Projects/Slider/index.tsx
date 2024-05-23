@@ -40,7 +40,7 @@ export default function Slider({ slides }: { slides: Array<React.ReactNode> }) {
         />
         <div
           ref={sliderRef}
-          className="z-10 py-4 rounded-md md:py-10 sm:mx-7 keen-slider bg-slate-400 dark:bg-black-blue"
+          className="z-10 py-10 rounded-md sm:mx-10 keen-slider bg-slate-300 dark:bg-slate-950"
         >
           {slides.map((item, index) => (
             <div

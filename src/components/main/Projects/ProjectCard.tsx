@@ -17,35 +17,36 @@ export default function ProjectCard({
   projectInfo: ProjectInfo;
 }) {
   return (
-    <div className="flex flex-row items-center border-2 border-black rounded-sm bg-zinc-200 dark:bg-zinc-950">
-      <div className=" h-80 p-3 grid grid-rows-6 gap-1 border-black sm:w-[275px]  ">
-        <h1 className="row-span-2 text-4xl font-bold text-main-pink ">
-          {projectInfo.name}{" "}
-        </h1>
-        <div className="row-span-1 text-lg font-semibold ">
-          <a
-            target="_blank"
-            href={projectInfo.liveSrc}
-            className="px-1 font-bold text-black duration-300 border-4 rounded-l-sm cursor-pointer hover:text-white bg-main-blue border-main-blue"
-          >
-            Demo
-          </a>
-          <a
-            target="_blank"
-            href={projectInfo.gitSrc}
-            className="px-1 duration-300 border-4 rounded-r-sm cursor-pointer hover:text-main-yellow border-main-blue"
-          >
-            Git
-          </a>
+    <div className="flex flex-row items-center w-11/12 bg-slate-300 dark:bg-slate-950">
+      <div className="flex flex-col justify-between gap-4 h-80">
+        <div className="flex justify-between">
+          <h1 className="text-4xl font-bold text-main-pink ">
+            {projectInfo.name}
+          </h1>
+          <div className="flex self-start gap-1 text-xl font-black tracking-widest ">
+            <a
+              target="_blank"
+              href={projectInfo.liveSrc}
+              className="p-2 text-black duration-300 border-4 rounded-l-xl hover:text-white bg-main-blue border-main-blue"
+            >
+              Demo
+            </a>
+            <a
+              target="_blank"
+              href={projectInfo.gitSrc}
+              className="p-2 duration-300 border-4 rounded-r-xl hover:text-main-yellow border-main-blue"
+            >
+              Git
+            </a>
+          </div>
         </div>
-        <p className="row-span-2 font-semibold text-md ">
-          {projectInfo.description}
-        </p>
-        <div className="flex flex-row flex-wrap self-end row-span-1 gap-2 font-semibold">
+
+        <p className="font-semibold text-md ">{projectInfo.description}</p>
+        <div className="flex flex-row flex-wrap gap-2 font-semibold">
           {projectInfo.techs.map((label) => (
             <h6
               key={label}
-              className="px-2 rounded-lg bg-zinc-400 dark:bg-zinc-900"
+              className="px-2 rounded-lg bg-zinc-400 dark:bg-gray-900"
             >
               {label}
             </h6>
@@ -58,7 +59,7 @@ export default function ProjectCard({
         alt={projectInfo.name}
         width={1000}
         height={1000}
-        className="w-[275px] h-[275px] rounded-sm hidden md:flex mx-3 border-4 border-black"
+        className="hidden mx-3 border-4 border-black rounded-sm w-80 h-80 md:flex"
       />
     </div>
   );

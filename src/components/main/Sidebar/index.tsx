@@ -13,17 +13,22 @@ export default async function Sidebar({ locale }: { locale: Locale }) {
   const { sidebar } = await getDictionary(locale);
   return (
     <AnimatedDiv>
-      <ProfileImg />
-      <Headers locale={locale} />
-      <SocialLinks />
-      <div className="flex flex-col ">
-        <ThemeToggler
-          darkLabel={sidebar.darkMode}
-          lightLabel={sidebar.lightMode}
-        />
-        <LanguageToggler locale={locale} />
+      <div className="flex flex-col px-4 py-4 2xl:px-8">
+        <div className="flex flex-col divide-y dark:divide-gray-200 divide-gray-950">
+          <ProfileImg />
+          <Headers locale={locale} />
+          <SocialLinks />
+          <Contact />
+        </div>
+
+        <div className="flex flex-col ">
+          <ThemeToggler
+            darkLabel={sidebar.darkMode}
+            lightLabel={sidebar.lightMode}
+          />
+          <LanguageToggler locale={locale} />
+        </div>
       </div>
-      <Contact />
     </AnimatedDiv>
   );
 }

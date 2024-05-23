@@ -1,4 +1,4 @@
-import { Alegreya } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 import "./globals.css";
 import { Locale } from "../../i18n.config";
@@ -9,7 +9,7 @@ export const metadata = {
   description: "Web Developer Portfolio",
 };
 
-const font = Alegreya({ subsets: ["latin"], display: "swap" });
+const font = Montserrat({ subsets: ["latin"], display: "swap" });
 
 export default async function RootLayout({
   children,
@@ -20,7 +20,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang={locale} className={font.className}>
-      <body className=" bg-gradient-to-r from-emerald-800 to-teal-800 dark:from-black-blue dark:to-deep-blue dark:text-white">
+      <body className="text-gray-900 bg-gray-300 dark:bg-stone-950 dark:text-gray-200">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

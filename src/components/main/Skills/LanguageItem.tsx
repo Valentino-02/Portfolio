@@ -14,7 +14,7 @@ export default function LanguageItem({
   return (
     <motion.h3
       whileHover={{ x: position }}
-      className="p-1 rounded-sm dark:bg-black bg-zinc-300"
+      className="p-1 border-4 rounded-sm dark:bg-slate-800 bg-zinc-300 border-black-blue"
     >
       {label}
     </motion.h3>

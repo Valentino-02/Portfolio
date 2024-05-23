@@ -30,7 +30,8 @@ export default function ProfileImg() {
       <Image
         src={imgURLs[imgIndex]}
         alt="Profile Photo"
-        className="w-32 h-32 mx-auto duration-500 bg-black border-2 border-black rounded-full cursor-pointer hover:border-main-pink"
+        title="Spin Me?"
+        className="w-32 h-32 mx-auto mb-4 duration-300 bg-black border-4 border-black rounded-full cursor-pointer hover:border-main-pink"
         width={1000}
         height={1000}
         onClick={() => changeImg()}
